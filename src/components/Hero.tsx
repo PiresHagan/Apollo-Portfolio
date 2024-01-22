@@ -53,7 +53,8 @@ export default function Hero() {
                   {" "}
                   Apollo
                 </span>{" "}
-                , A dedicated Developer on a mission to craft visually appealing and user-friendly experiences
+                , A dedicated Developer on a mission to craft visually appealing
+                and user-friendly experiences
               </div>
             </FadeUp>
           </AnimatePresence>

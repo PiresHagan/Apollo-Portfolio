@@ -6,7 +6,7 @@ import {
   DATABASE_ORM_PILL,
   LANGUAGES,
   LIBRARY_FRAMEWORK,
-  TOOLS_TECHNOLOGIES
+  TOOLS_TECHNOLOGIES,
 } from "@/data/skills";
 import { useScreenBreakpoint } from "@/hooks/useScreenBreakpoint";
 import { useDebounceValue } from "@/hooks/useDebounceValue";
@@ -74,7 +74,9 @@ export default function Skills() {
         </AnimatePresence>
         <AnimatePresence>
           <div className="mt-4">
-            <span className="text-xs font-semibold sm:text-sm">Backend Frameworks and Libraries</span>
+            <span className="text-xs font-semibold sm:text-sm">
+              Backend Frameworks and Libraries
+            </span>
             <div className="mt-2 flex flex-wrap gap-3">
               {BACKEND_PILL.map((pill, index) => (
                 <FadeRight

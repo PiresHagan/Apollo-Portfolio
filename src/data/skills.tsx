@@ -4,7 +4,6 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -180,7 +179,7 @@ export const BACKEND_PILL: SkillPillProps[] = [
         <Image alt="django logo" src="/icons/django.svg" fill />
       </span>
     ),
-  }
+  },
 ];
 
 export const DATABASE_ORM_PILL: SkillPillProps[] = [

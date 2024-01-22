@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { NextSeo } from "next-seo";
-import FadeRight from "@/animation/FadeRight";
+// import FadeRight from "@/animation/FadeRight";
 import FadeUp from "@/animation/FadeUp";
 import { AnimatePresence } from "framer-motion";
 import ShowCaseList from "@/components/ShowCaseList";
@@ -65,12 +65,15 @@ export default function About() {
             </FadeUp>
             <FadeUp key="description-1" duration={0.6} delay={0.2}>
               <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                I am committed to continuously enhancing my skillset and staying abreast of emerging industry advancements and trends.
+                I am committed to continuously enhancing my skillset and staying
+                abreast of emerging industry advancements and trends.
               </p>
             </FadeUp>
             <FadeUp key="description-2" duration={0.6} delay={0.4}>
               <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                I am a very flexible engineer that is passionate about AI, ML and new techs and I am looking for a full remote contract position.
+                I am a very flexible engineer that is passionate about AI, ML
+                and new techs and I am looking for a full remote contract
+                position.
               </p>
             </FadeUp>
             {/* <FadeRight

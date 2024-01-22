@@ -1,6 +1,6 @@
 import { ProjectCardProps } from "@/components/ProjectCard";
 import { ProjectShowcaseListProps } from "@/components/ProjectShowcaseList";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+// import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
   {
@@ -24,7 +24,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
       "Vite",
       "MongoDB",
       "Automation",
-      "Python"
+      "Python",
     ],
     image: {
       LIGHT: "/images/projects/privilee.jpg",
@@ -69,10 +69,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Arizona Power Sweeping",
     favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/aps.jpg",
-      "/images/projects/aps_1.jpg",
-    ],
+    imageUrl: ["/images/projects/aps.jpg", "/images/projects/aps_1.jpg"],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
     liveWebsiteHref: "https://manygames.vercel.app",
