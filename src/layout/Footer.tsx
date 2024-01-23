@@ -1,5 +1,10 @@
 import { ContactForm } from "@/components/ContactForm";
-import { GithubIcon } from "@/components/Icons";
+import {
+  GithubIcon,
+  GmailIcon,
+  TelegramIcon,
+  SkypeIcon,
+} from "@/components/Icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -33,22 +38,30 @@ export default function Footer() {
           >
             <GithubIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
           </a>
-          {/* <a
-            href={siteMetadata.twitter}
+          <a
+            href={siteMetadata.email}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Twitter"
+            aria-label="link to Email"
           >
-            <TwitterIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
+            <GmailIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
           </a>
           <a
-            href={siteMetadata.linkedin}
+            href={siteMetadata.telegram}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Linkedin"
+            aria-label="link to Telegram"
           >
-            <LinkedinIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
-          </a> */}
+            <TelegramIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
+          </a>
+          <a
+            href={siteMetadata.skype}
+            target="_blank"
+            className="h-6 w-6"
+            aria-label="link to Telegram"
+          >
+            <SkypeIcon className="text-teal-600 transition-colors duration-150 hover:text-tera-500 dark:text-teal-400 dark:hover:text-white" />
+          </a>
         </div>
       </div>
     </footer>
