@@ -5,12 +5,12 @@ import { ProjectShowcaseListProps } from "@/components/ProjectShowcaseList";
 export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
   {
     index: 0,
-    title: "Thom Browne",
+    title: "Waking Up",
     href: "/projects",
-    tags: ["React", "Django", "Tailwind CSS", "MongoDB"],
+    tags: ["React", "NodeJS", "Docker", "GraphQL"],
     image: {
-      LIGHT: "/images/projects/thombrowne.jpg",
-      DARK: "/images/projects/thombrowne_dark.jpg",
+      LIGHT: "/images/projects/wakingup_1.jpg",
+      DARK: "/images/projects/wakingup_2.jpg",
     },
   },
   {
@@ -33,12 +33,12 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
   },
   {
     index: 2,
-    title: "APS",
+    title: "Lyveat",
     href: "/projects",
-    tags: ["Next.js", "Node.js", "GraphQL", "CSS3", "JavaScript"],
+    tags: ["React", "Node.js", "Vue.js", "JavaScript"],
     image: {
-      LIGHT: "/images/projects/aps.jpg",
-      DARK: "/images/projects/aps_dark.jpg",
+      LIGHT: "/images/projects/lyveat_1.jpg",
+      DARK: "/images/projects/lyveat_2.jpg",
     },
   },
 ];
@@ -46,7 +46,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Thom Browne",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "/images/projects/logos/favicon.ico",
     imageUrl: [
       "/images/projects/thombrowne.jpg",
       "/images/projects/thombrowne_1.jpg",
@@ -57,7 +57,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Privilee",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "/images/projects/logos/favicon.ico",
     imageUrl: [
       "/images/projects/privilee.jpg",
       "/images/projects/privilee_dark.jpg",
@@ -68,22 +68,33 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Arizona Power Sweeping",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "/images/projects/logos/favicon.ico",
     imageUrl: ["/images/projects/aps.jpg", "/images/projects/aps_1.jpg"],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
     liveWebsiteHref: "https://manygames.vercel.app",
   },
-  // {
-  //   name: "My portfolio",
-  //   favicon: "/favicon.ico",
-  //   imageUrl: [
-  //     "/images/projects/portfolioDark.webp",
-  //     "/images/projects/portfolioLight.webp",
-  //   ],
-  //   description:
-  //     "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-  //   sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-  //   liveWebsiteHref: siteMetadata.siteUrl,
-  // },
+  {
+    name: "Waking Up",
+    favicon: "/images/projects/logos/favicon.ico",
+    imageUrl: [
+      "/images/projects/wakingup_1.jpg",
+      "/images/projects/wakingup_2.jpg",
+    ],
+    description:
+      "Waking Up isn't just another meditation app—it's a new operating system for your mind. We help you discover the true purpose of meditation, and give you pressure- tested wisdom for living a more examined, fulfilling life. Here, you won't find any New Age fluff or religious dogma—just powerful training and insights.",
+    liveWebsiteHref: "https://www.wakingup.com/",
+  },
+  {
+    name: "Lyveat",
+    favicon: "/images/projects/logos/favicon.ico",
+    imageUrl: [
+      "/images/projects/lyveat_1.jpg",
+      "/images/projects/lyveat_2.jpg",
+      "/images/projects/lyveat_3.jpg",
+    ],
+    description:
+      "Lyveat is the first French restaurant delivery application outside major cities. A very practical solution when you don't have time to go shopping or want to take a quick meal break. Or simply treat yourself without having to cook! Lyveat is a similar and competing company to Uber Eats | Deliveroo.",
+    liveWebsiteHref: "https://www.lyveat.com/",
+  },
 ];
